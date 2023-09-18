@@ -1,0 +1,42 @@
+{
+  
+  "type": "module",
+  
+  "name": "sort",
+  
+  "version": "1.0.0",
+  
+  "description": "Sorting Algorithm in TypeScript",
+  
+  "main": "index.js",
+  
+  "scripts": {
+  
+    
+  "start:build": "tsc -w",
+  
+    
+  "start:run": "nodemon dist/index.js",
+  
+    
+  "start": "concurrently npm:start:*"
+  
+  },
+  
+  "author": "Collins Kariuki",
+  
+  "license": "ISC",
+  
+  "dependencies": {
+  
+    
+  "concurrently": "^8.2.1",
+  
+    
+  "g": "^2.0.1",
+  
+    
+  "ts-node": "^10.9.1"
+  
+  }
+}
